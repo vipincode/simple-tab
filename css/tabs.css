@@ -1,0 +1,33 @@
+/*  TAB STYLE  */
+.tab {
+  overflow: hidden;
+}
+
+.tab button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  float: left;
+  padding: 7px 20px;
+  font-size: 28px;
+  font-weight: 600;
+  background: #ddd;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-top: 3px solid transparent;
+}
+
+.tab button.active {
+  border-top: 3px solid #43cad2;
+  background-color: #eee;
+}
+
+.tabcontent {
+  display: none;
+  border: 1px solid #eee;
+  padding: 30px;
+}
+
+.tabcontent.toggle {
+  display: block;
+}

@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  color: #333;
+  line-height: 1.5;
+}
+
+.tabs-wrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 27px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
